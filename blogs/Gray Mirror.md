@@ -1,0 +1,1 @@
+[Gray Mirror](https://graymirror.substack.com/) is Curtis Yarvin's Substack. It has no recommendations.
