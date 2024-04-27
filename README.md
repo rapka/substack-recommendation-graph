@@ -9,7 +9,7 @@ Its intent is to be visualized with Obsidian's graph mode for visualizing notes 
 
 ### Methodology
 
-This data was collected by hand over the weekend of April 27, 2024. Substack defaults blog names to "{Person}'s Newsletter"; I didn't notice any conflicts caused by this, but I may have missed them or made a typo somewhere
+This data was collected by hand over the weekend of April 27, 2024. Substack defaults blog names to "{Person}'s Newsletter"; I didn't notice any conflicts caused by this, but I may have missed them or made a typo somewhere. Blogs are added in the order they're listed on each Subtack's `/recommendations` page, which I believe is reverse chronological order.
 
 
 ### Future work
