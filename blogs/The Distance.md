@@ -20,7 +20,7 @@
 [[Gender Clinic News]]
 [[James Esses]]
 [[William's Newsletter]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[I Might Be Wrong]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[FRANCIS AARON]]

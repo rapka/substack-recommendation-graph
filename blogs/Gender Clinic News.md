@@ -2,7 +2,7 @@
 [[Szego Unplugged]]
 [[Dr Dylan Wilson, Paediatrician]]
 [[Unsafe Science]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[The Free Press]]
 [[The Truth Fairy]]

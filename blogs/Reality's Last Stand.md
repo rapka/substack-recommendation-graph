@@ -24,7 +24,7 @@
 [[Peter Boghossian]]
 [[Natural Selections]]
 [[Journal of Free Black Thought]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[Random Minds by Katherine Brodsky]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[buttonslives]]

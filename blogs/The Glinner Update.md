@@ -6,7 +6,7 @@
 [[Stella O'Malley]]
 [[@STILLTish's Newsletter]]
 [[Fred Sargeant]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[Helen's Take]]
 [[Women's Voices]]

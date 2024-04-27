@@ -16,7 +16,7 @@
 [[Foundation Against Intolerance & Racism]]
 [[Some Nuance, Please]]
 [[GIH News & Views]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[buttonslives]]
 [[Habits of a Free Mind]]

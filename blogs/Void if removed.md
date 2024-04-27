@@ -1,7 +1,7 @@
 [[Invisible Women]]
 [[Open Justice with Tribunal Tweets]]
 [[Kathleen Stock]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[The Secret Gender Files]]
 [[Letters from Suzanne]]

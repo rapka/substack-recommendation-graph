@@ -7,7 +7,7 @@
 [[@STILLTish's Newsletter]]
 [[Foundation Against Intolerance & Racism]]
 [[Radical Feminist Essays]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[Women's Voices]]
 [[Exulansic]]

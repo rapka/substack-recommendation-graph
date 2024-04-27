@@ -15,7 +15,7 @@
 [[justdad7's Newsletter]]
 [[Some Nuance, Please]]
 [[Radical Feminist Essays]]
-[[gender:hacked by Eliza Mondegreen]]
+[[genderhacked by Eliza Mondegreen]]
 [[Parents with Inconvenient Truths about Trans (PITT)]]
 [[buttonslives]]
 [[Genderwang]]
