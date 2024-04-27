@@ -1,4 +1,4 @@
-[[Winston Marhsall]]
+[[Winston Marshall]]
 [[Christopher F. Rufo]]
 [[Roots & Wings with Frank Furedi]]
 [[Academy of Ideas]]
