@@ -100,7 +100,7 @@
 [[bat cattitude]]
 [[Rounding the Earth Newsletter]]
 [[eugyppius - a plague chronicle]]
-[[The Disinformation Chronicle]]
+[[The DisInformation Chronicle]]
 [[The Free Press]]
 [[The Truth Barrier]]
 [["Relentless" Newsletter]]
