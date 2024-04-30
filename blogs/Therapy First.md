@@ -1,4 +1,4 @@
-[[Gender: A Wider Lens]]
+[[Gender - A Wider Lens]]
 [[LGBT Courage Coalition]]
 [[After Babel]]
 [[Gender Clinic News]]

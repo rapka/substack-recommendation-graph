@@ -1,3 +1,5 @@
+By Sarah Phillimore
+
 [[KPSS Substack]]
 [[Speaking the Ineffable]]
 [[Andrew Doyle]]

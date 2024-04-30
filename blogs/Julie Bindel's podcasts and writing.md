@@ -1,5 +1,5 @@
 [[SEENinJournalism's Substack]]
-[[The Lebsian Project Podcast]]
+[[The Lesbian Project Podcast]]
 [[Cherry Smiley's Thoughts & Words]]
 [[Press Gazette]]
 [[Szego Unplugged]]

@@ -1,10 +1,12 @@
+By Dennis Noel Kavanagh
+
 [[Clive's Newsletter]]
 [[Julie Bindel's podcasts and writing]]
 [[Richie @TulipR]]
 [[The Reason We Learn]]
 [[The Same Drugs]]
 
-[[The Lebsian Post]]
+[[The Lesbian Post]]
 [[James Esses]]
 [[Queens Speech]]
 [[Tripp's Take]]

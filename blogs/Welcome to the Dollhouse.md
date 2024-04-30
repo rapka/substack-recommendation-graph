@@ -1,6 +1,6 @@
 [[Szego Unplugged]]
 [[Campaign Club]]
-[[Kelly James / On Gender]]
+[[Kelly James - On Gender]]
 [[Kate's Substack]]
 [[REDUXX Weekly Roundup]]
 

@@ -40,4 +40,4 @@
 [[Razib Khan's Unsupervised Learning]]
 [[Noah's Newsletter]]
 [[Astral Codex Ten]]
-[[Gwern.net Newsletter]]
+[[Gwern Newsletter]]

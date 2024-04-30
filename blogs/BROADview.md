@@ -1,7 +1,7 @@
-[[Gender: A Wider Lens]]
+[[Gender - A Wider Lens]]
 [[A Special Place in Hell]]
 [[The Unspeakable with Meghan Daum]]
-[[Cornna Cohna]]
+[[Corinna Cohn]]
 [[Smoke 'Em If You Got 'Em Podcast]]
 
 [[Restore Childhood's Newsletter]]

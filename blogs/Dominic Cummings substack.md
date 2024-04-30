@@ -3,4 +3,4 @@
 [[Astral Codex Ten]]
 [[The Weekly Dish]]
 [[Gray Mirror]]
-[[Gwern.net Newsletter]]
+[[Gwern Newsletter]]
