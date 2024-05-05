@@ -1,5 +1,5 @@
 [[RealBestLife]]
-[[Slack Time by Matt Labash]]
+[[Slack Tide by Matt Labash]]
 [[The Free Press]]
 [[Matt Shapiro's Marginally Compelling]]
 [[Singal-Minded]]

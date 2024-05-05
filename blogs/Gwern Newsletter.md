@@ -1,3 +1,8 @@
+---
+tags:
+  - Rationality
+---
+
 [[Don't Worry About the Vase]]
 [[Axis of Ordinary]]
 [[Desystemize]]

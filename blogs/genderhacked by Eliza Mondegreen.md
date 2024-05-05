@@ -1,3 +1,8 @@
+---
+tags:
+  - GC
+---
+
 [[Victoria's Substack]]
 [[Circare]]
 [[LasMusardeuse]]

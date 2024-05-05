@@ -1,3 +1,8 @@
+---
+tags:
+  - GC
+---
+
 [[Desexing: Medecine as Means]]
 [[LGBT Courage Coalition]]
 [[Leon's Substack]]
