@@ -1,3 +1,7 @@
+---
+tags:
+  - Rationality
+---
 [[Living Fossils]]
 [[Marc Andreessen Substack]]
 [[Good Thoughts]]

@@ -1,3 +1,9 @@
+---
+tags:
+  - EffectiveAltruism
+  - ArtificialIntelligence
+---
+
 [[Turpentine Newsletter]]
 [[Marc Andreessen Substack]]
 [[The Cognitive Revolution]]

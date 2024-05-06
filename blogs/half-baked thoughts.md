@@ -1,3 +1,8 @@
+---
+tags:
+  - RaceScience
+---
+
 [[seb on drugs]]
 [[The Alternative Hypothesis]]
 [[Meng Hu on HBD and Austrian Economics]]

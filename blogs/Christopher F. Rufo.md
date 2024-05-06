@@ -1,3 +1,8 @@
+---
+tags:
+  - GC
+---
+
 [[The Illusion of Consensus]]
 [[~~datahazard~~]]
 [[protein wisdom reborn!]]

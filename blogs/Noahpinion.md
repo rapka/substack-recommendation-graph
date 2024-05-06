@@ -1,3 +1,8 @@
+---
+tags:
+  - EffectiveAltruism
+---
+
 [[High Capacity]]
 [[TokyoScope by Patrick Macias]]
 [[The Climate Brink]]

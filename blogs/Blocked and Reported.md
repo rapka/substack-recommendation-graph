@@ -1,3 +1,8 @@
+---
+tags:
+  - GC
+---
+
 [[The Unspeakable with Meghan Daum]]
 [[Julie Bindel's podcasts and writing]]
 [[Tracing Woodgrains]]

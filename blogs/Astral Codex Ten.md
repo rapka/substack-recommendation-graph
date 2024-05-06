@@ -1,3 +1,9 @@
+---
+tags:
+  - Rationality
+  - EffectiveAltruism
+---
+
 [[Rachel's Substack]]
 [[Polypharmacy]]
 [[The Genetic Choice Project]]

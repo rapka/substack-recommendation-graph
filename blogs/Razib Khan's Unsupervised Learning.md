@@ -1,3 +1,7 @@
+---
+tags:
+  - RaceScience
+---
 [[The Wisdom of the Crowd]]
 [[Lee Fang]]
 [[Full Stack Economics]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - AntiWoke
+---
+
 [[Economics Matters by Laurence Kotlikoff]]
 [[The Podium]]
 [[American Inequality]]

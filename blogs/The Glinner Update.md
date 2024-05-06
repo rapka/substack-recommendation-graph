@@ -1,3 +1,8 @@
+---
+tags:
+  - GC
+---
+
 [[Arty Morty's Substack]]
 [[Kavanagh's Substack]]
 [[The Same Drugs]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - GC
+---
+
 [[Winston Marshall]]
 [[Christopher F. Rufo]]
 [[Roots & Wings with Frank Furedi]]

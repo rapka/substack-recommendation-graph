@@ -1,3 +1,8 @@
+---
+tags:
+  - EffectiveAltruism
+---
+
 [[Doing Westminister Better]]
 [[bashing the arc 🔨✨]]
 [[a safe space to write]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - AntiVax
+---
+
 [[Best of DailyClout]]
 [[OpenVAET's Substack]]
 [[Behind the FDA Curtain: WarRoom/DailyClout Pfizer Reports]]

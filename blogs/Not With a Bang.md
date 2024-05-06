@@ -1,3 +1,8 @@
+---
+tags:
+  - RaceScience
+---
+
 [[Peter Frost's Newsletter]]
 [[Patterns in Humanity]]
 [[Kinship]]

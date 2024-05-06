@@ -1,3 +1,9 @@
+---
+tags:
+  - EffectiveAltruism
+  - Rationality
+---
+
 [[Journey to the West Daily]]
 [[EA Lifestyles]]
 [[Welcome to Garbagetown]]

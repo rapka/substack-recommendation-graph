@@ -1,3 +1,8 @@
+---
+tags:
+  - AntiWoke
+---
+
 [[Graphs about Religion]]
 [[Science Fictions]]
 [[Unsafe Science]]

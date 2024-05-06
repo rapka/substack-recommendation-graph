@@ -1,3 +1,7 @@
+---
+tags:
+  - GC
+---
 [[Christopher F. Rufo]]
 [[Lee Fang]]
 [[Konstantin Kisin]]

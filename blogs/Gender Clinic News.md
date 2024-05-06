@@ -2,7 +2,6 @@
 tags:
   - GC
 ---
-
 [[LGBT Courage Coalition]]
 [[Szego Unplugged]]
 [[Dr Dylan Wilson, Paediatrician]]

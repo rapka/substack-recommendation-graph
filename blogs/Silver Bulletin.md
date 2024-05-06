@@ -1,3 +1,9 @@
+---
+tags:
+  - Rationality
+  - EffectiveAltruism
+---
+
 [[Dan Williams]]
 [[The Eternally Radical Idea]]
 [[Useful Fictions]]

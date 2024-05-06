@@ -1,3 +1,8 @@
+---
+tags:
+  - RaceScience
+---
+
 [[The Jolly Heretic]]
 [[Lefineder's Substack]]
 [[Cremieux Recueil]]

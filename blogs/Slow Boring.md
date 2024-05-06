@@ -1,3 +1,8 @@
+---
+tags:
+  - EffectiveAltruism
+---
+
 [[Hypertext]]
 [[Understanding AI]]
 [[The Great Gender Divergence]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - RaceScience
+---
+
 [[Meng Hu on HBD and Austrian Economics]]
 [[Cremieux Recueil]]
 [[East Hunter]]

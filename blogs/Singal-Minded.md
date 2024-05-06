@@ -1,3 +1,8 @@
+---
+tags:
+  - GC
+---
+
 [[Spurious's Substack]]
 [[The Studies Show Podcast]]
 [[Lee Fang]]

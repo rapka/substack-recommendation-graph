@@ -1,3 +1,7 @@
+---
+tags:
+  - GC
+---
 [[Academy of Ideas]]
 [[Matt Goodwin]]
 [[Konstantin Kisin]]

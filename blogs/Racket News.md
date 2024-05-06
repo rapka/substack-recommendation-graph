@@ -1,3 +1,8 @@
+---
+tags:
+  - AntiWoke
+---
+
 [[Seymour Hersh]]
 [[Lee Fang]]
 [[FOIA Around And Find Out]]

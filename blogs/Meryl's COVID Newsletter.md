@@ -1,3 +1,8 @@
+---
+tags:
+  - AntiVax
+---
+
 [[Clusterfuck Nation]]
 [[Dr.'s Substack]]
 [[Sovereignty]]
