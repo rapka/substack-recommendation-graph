@@ -1,5 +1,5 @@
 [[The Kennedy Beacon]]
-[[Just Think: The Podcast]]
+[[Just Think - The Podcast]]
 [[COVEXIT Notes]]
 [[Behind the FDA Curtain: WarRoom/DailyClout Pfizer Reports]]
 [[Vigilant News]]

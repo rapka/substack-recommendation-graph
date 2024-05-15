@@ -1,3 +1,8 @@
+---
+tags:
+  - Rationality
+---
+[[Asterisk Magazine]]
 [[Sara's Substack]]
 [[Small Potatoes]]
 [[Hormeze]]

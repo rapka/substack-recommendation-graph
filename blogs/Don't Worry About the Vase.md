@@ -1,3 +1,8 @@
+---
+tags:
+  - Rationality
+---
+
 [[Silver Bulletin]]
 [[Bet On It]]
 [[Rough Diamonds]]

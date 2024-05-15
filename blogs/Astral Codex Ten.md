@@ -4,6 +4,7 @@ tags:
   - EffectiveAltruism
 ---
 
+[[Asterisk Magazine]]
 [[Rachel's Substack]]
 [[Polypharmacy]]
 [[The Genetic Choice Project]]

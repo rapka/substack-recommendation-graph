@@ -79,7 +79,7 @@
 [[Modern Discontent]]
 [[deNutrients - News to Use]]
 [[All Facts Matter]]
-[[Resisting the Intellectual Illiteratty]]
+[[Resisting the Intellectual Illiteratti]]
 [[Silent Lunch, The David Zweig Newsletter]]
 [[Yakk Stack]]
 [[Murray's Newsletter]]
