@@ -1,3 +1,9 @@
+---
+tags:
+  - GC
+  - AntiWoke
+---
+
 [[Heal The West]]
 [[Ideas Beyond Borders]]
 [[Chloé's Newsletter]]

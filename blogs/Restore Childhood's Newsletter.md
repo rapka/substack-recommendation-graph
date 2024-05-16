@@ -1,3 +1,9 @@
+---
+tags:
+  - AntiVax
+  - GC
+---
+
 [[Karol's Substack]]
 [[A Republic, If You Can Keep It]]
 [[The Illusion of Consensus]]
