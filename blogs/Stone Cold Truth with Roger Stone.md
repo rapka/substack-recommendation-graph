@@ -1,1 +1,0 @@
-[[Paul Ingrassia's Substack]]

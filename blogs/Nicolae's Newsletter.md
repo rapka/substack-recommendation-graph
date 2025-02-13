@@ -1,1 +1,0 @@
-By Nicolae Rusan. No recommendations.

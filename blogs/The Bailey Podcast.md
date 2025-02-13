@@ -1,2 +1,0 @@
-[[Tracing Woodgrains]]
-[[Anarchonomicon]]

@@ -1,1 +1,0 @@
-(by John J. Mearsheimer)
