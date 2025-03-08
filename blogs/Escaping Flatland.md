@@ -1,6 +1,0 @@
-[[Tracing Woodgrains]]
-[[Nabeel S. Qureshi]]
-[[Sasha's 'Newsletter']]
-[[Gwern Newsletter]]
-[[What's New Under the Sun]]
-[[Monomythical]]

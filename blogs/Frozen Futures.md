@@ -1,6 +1,0 @@
-[[The Biostasis Standard]]
-[[Overcoming Bias]]
-[[Extropic Thoughts]]
-[[Progress and Poverty]]
-[[Faster, Please!]]
-[[Astral Codex Ten]]

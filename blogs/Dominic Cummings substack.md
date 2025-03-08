@@ -1,6 +1,0 @@
-[[James W. Phillips' Newsletter]]
-[[Don't Worry About the Vase]]
-[[Astral Codex Ten]]
-[[The Weekly Dish]]
-[[Gray Mirror]]
-[[Gwern Newsletter]]

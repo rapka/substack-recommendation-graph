@@ -1,6 +1,0 @@
-[[Silver Bulletin]]
-[[The Fifth Column (A Podcast)]]
-[[Very Serious]]
-[[Freddie deBoer]]
-[[Slow Boring]]
-[[The Popehat Report]]

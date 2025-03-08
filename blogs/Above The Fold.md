@@ -1,7 +1,0 @@
-[[The Prediction Post]]
-[[Marketwise]]
-[[The Fox Says]]
-[[Silver Bulletin]]
-[[Predictions]]
-[[Astral Codex Ten]]
-[[Nonrival]]

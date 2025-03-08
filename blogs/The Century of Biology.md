@@ -1,7 +1,0 @@
-[[The Aliquot]]
-[[Decoding Bio]]
-[[Asimov Press]]
-[[Noahpinion]]
-[[The Long Game by Mehdi Yacoubi]]
-[[Not Boring by Packy McCormick]]
-[[Happy Warrior by Seth Bannon]]

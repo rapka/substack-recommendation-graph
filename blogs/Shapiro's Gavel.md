@@ -1,5 +1,0 @@
-[[Peter's Substack]]
-[[University of Chicago Free Speech Alilance]]
-[[The Eternally Radical Idea]]
-[[Glenn's Substack]]
-[[Christopher F. Rufo]]

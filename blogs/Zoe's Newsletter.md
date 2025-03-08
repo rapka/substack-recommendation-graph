@@ -1,3 +1,0 @@
-[[Hormeze]]
-[[Reactionary Feminist]]
-[[Knowingless]]

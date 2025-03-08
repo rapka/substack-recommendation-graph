@@ -1,6 +1,0 @@
-[[The Century of Biology]]
-[[Razib Khan's Unsupervised Learning]]
-[[Astral Codex Ten]]
-[[Dwarkesh Podcast]]
-[[Noahpinion]]
-[[The Cosmopolitan Globalist]]

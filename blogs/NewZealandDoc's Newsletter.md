@@ -1,5 +1,0 @@
-[[Transcriber B's Substack]]
-[[Emanuel E. Garcia's Poetry and Fiction]]
-[[Spiritual Awakening NOW]]
-[[Mr medic's marvelous misinformation]]
-[[Tessa Fights Robots]]

@@ -1,1 +1,0 @@
-(By Hugh McCarthy)

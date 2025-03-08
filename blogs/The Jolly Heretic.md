@@ -1,6 +1,0 @@
-[[Naughty Data]]
-[[Anglo Reaction]]
-[[Aporia]]
-[[The Forbidden Texts]]
-[[Joseph Bronski]]
-[[Just Emil Kirkegaard Things]]

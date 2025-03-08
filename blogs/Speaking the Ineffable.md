@@ -1,8 +1,0 @@
-[[Osborne Ink]]
-[[After Babel]]
-[[Corinna Cohn]]
-[[Kathleen Stock]]
-[[The Art of Work]]
-[[Blocked and Reported]]
-[[Natural Selections]]
-[[The Convivial Society]]

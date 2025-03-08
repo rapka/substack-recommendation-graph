@@ -1,2 +1,0 @@
-[[Handwaving Freakoutery]]
-[[Gray Mirror]]

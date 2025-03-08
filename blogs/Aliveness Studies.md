@@ -1,7 +1,0 @@
-[[Dissentient]]
-[[Hauke Hillebrandt]]
-[[Knowingless]]
-[[Astral Codex Ten]]
-[[Consumer Surplus]]
-[[Ask Polly]]
-[[bookbear express]]

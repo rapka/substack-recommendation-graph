@@ -1,6 +1,0 @@
----
-tags:
-  - EffectiveAltruism
----
-
-No recommendations.
