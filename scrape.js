@@ -4,14 +4,17 @@ import getRecommendations from './getRecommendations.js';
 
 let blogsToProcess = [];
 let outputFilePath = '';
-let depth = 3;
+let maxDepth = 3;
 
 if (process.argv[4] && parseInt(process.argv[4])) {
-	depth = parseInt(process.argv[4]);
-	console.log(`Using depth: ${depth}`);
+	maxDepth = parseInt(process.argv[4]);
+	console.log(`Using depth: ${maxDepth}`);
 } else {
-	console.log(`Using default depth: ${depth}`);
+	console.log(`Using default depth: ${maxDepth}`);
 }
+
+const currentDepth = maxDepth.valueOf();
+
 
 // Scrape single blog
 if (process.argv[2] === 'url') {
@@ -22,7 +25,7 @@ if (process.argv[2] === 'url') {
 
 	const rootUrl = process.argv[3];
 	blogsToProcess.push(rootUrl);
-	outputFilePath = `./datasets/${rootUrl.replaceAll('.', '_')}-${depth}.json`;
+	outputFilePath = `./datasets/${rootUrl.replaceAll('.', '_')}-${maxDepth}.json`;
 	console.log(`Saving recommendations for url ${process.argv[3]} to ${outputFilePath}`);
 // Scrape from a list of blogs
 } else if (process.argv[2] === 'list') {
@@ -41,7 +44,7 @@ if (process.argv[2] === 'url') {
 		process.exit();
 	}
 
-	outputFilePath = `./datasets/${blogListFilename.replaceAll('.json', '')}-${depth}.json`;
+	outputFilePath = `./datasets/${blogListFilename.replaceAll('.json', '')}-${maxDepth}.json`;
 	console.log(`Saving recommendations for ${blogsToProcess.length} blogs in ${blogListPath} to ${outputFilePath}`);
 } else {
 	console.error(`Invalid input flag: ${process.argv[2]}`);
@@ -55,14 +58,14 @@ if (process.argv[5] === 'append') {
 let initialBlogData;
 
 try {
-	const initialBlogData = JSON.parse(readFileSync(outputFilePath));
+	initialBlogData = JSON.parse(readFileSync(outputFilePath));
 	console.log(`Existing blog data read from ${outputFilePath}`);
 } catch (err) {
 	console.log(`No valid existing file at ${outputFilePath}. Creating a new one.`);
-	initialBlogData = {}
+	initialBlogData = {};
 }
 
 
 for (let i = 0; i < blogsToProcess.length; i++) {
-	await getRecommendations(blogsToProcess[i], initialBlogData, outputFilePath, depth);
+	await getRecommendations(blogsToProcess[i], initialBlogData, outputFilePath, maxDepth, currentDepth);
 }

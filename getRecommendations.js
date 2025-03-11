@@ -3,7 +3,7 @@ import { writeFileSync } from 'node:fs';
 import { setTimeout } from 'node:timers/promises';
 
 // Delay
-const SCRAPE_DELAY = 500;
+const SCRAPE_DELAY = 1000;
 
 //  Parse Substack root url from lead_image_url
 const getSubstackUrl = (baseUrl) => {
@@ -13,7 +13,7 @@ const getSubstackUrl = (baseUrl) => {
 		.replace(/%2F.*/, '');
 };
 
-const getRecommendations = async (url, allBlogData, outputFilePath, currentDepth) => {
+const getRecommendations = async (url, allBlogData, outputFilePath, maxDepth, currentDepth) => {
 
 	const blogData = {
 		domain: url,
@@ -43,7 +43,12 @@ const getRecommendations = async (url, allBlogData, outputFilePath, currentDepth
 			const result = await Parser.parse(`http://${url}/recommendations`, { customExtractor: RecommendationsExtractor });
 
 			if (result.error) {
-				console.log(`Error fectching recommendations for ${blogData.domain}: ${JSON.stringify(result)}`);
+				if (result.message.includes('404')) {
+					console.log(`404 not found error for ${blogData.domain}`);
+				} else {
+					console.log(`Error fectching recommendations for ${blogData.domain}: ${JSON.stringify(result)}`);
+				}
+
 				return;
 			}
 
@@ -58,7 +63,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, currentDepth
 			await setTimeout(SCRAPE_DELAY);
 		} else {
 			// Reuse existing recommendations
-			blogData.recommendations = allBlogs[blogData.domain].recommendations;
+			blogData.recommendations = allBlogData[blogData.domain].recommendations;
 		}
 
 
@@ -84,7 +89,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, currentDepth
 				console.error(`Error saving to file at ${outputFilePath}: ${err}`);
 			}
 
-			console.log(`Data saved for ${blogData.domain} at depth ${currentDepth}`);
+			console.log(`Data saved for ${blogData.domain} at depth ${maxDepth - currentDepth}`);
 		} else {
 		  // console.log(`duplicate blog: ${blogData.domain} DEPTH: ${currentDepth}`);
 		}
@@ -98,7 +103,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, currentDepth
 	}
 
 	for (let i = 0; i < blogData.recommendations.length; i++) {
-		await getRecommendations(blogData.recommendations[i], allBlogData, outputFilePath, currentDepth - 1);
+		await getRecommendations(blogData.recommendations[i], allBlogData, outputFilePath, maxDepth, currentDepth - 1);
 	}
 };
 
