@@ -1,10 +1,14 @@
 import { readFileSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 import getRecommendations from './getRecommendations.js';
 
 let blogsToProcess = [];
 let outputFilePath = '';
 let maxDepth = 3;
+
+const currentPath = dirname(fileURLToPath(import.meta.url));
 
 if (process.argv[4] && parseInt(process.argv[4])) {
 	maxDepth = parseInt(process.argv[4]);
@@ -25,7 +29,7 @@ if (process.argv[2] === 'url') {
 
 	const rootUrl = process.argv[3];
 	blogsToProcess.push(rootUrl);
-	outputFilePath = `./datasets/${rootUrl.replaceAll('.', '_')}-${maxDepth}.json`;
+	outputFilePath = join(currentPath, '..', 'datasets', `${rootUrl.replaceAll('.', '_')}-${maxDepth}.json`);
 	console.log(`Saving recommendations for url ${process.argv[3]} to ${outputFilePath}`);
 // Scrape from a list of blogs
 } else if (process.argv[2] === 'list') {
@@ -44,7 +48,7 @@ if (process.argv[2] === 'url') {
 		process.exit();
 	}
 
-	outputFilePath = `./datasets/${blogListFilename.replaceAll('.json', '')}-${maxDepth}.json`;
+	outputFilePath = join(currentPath, '..' ,'datasets', `${blogListFilename.replaceAll('.json', '')}-${maxDepth}.json`);
 	console.log(`Saving recommendations for ${blogsToProcess.length} blogs in ${blogListPath} to ${outputFilePath}`);
 } else {
 	console.error(`Invalid input flag: ${process.argv[2]}`);

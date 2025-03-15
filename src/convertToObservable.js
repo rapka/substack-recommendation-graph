@@ -1,8 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const taggedBlogs = JSON.parse(readFileSync('./data/taggedBlogs.json'));
-const allBlogs = JSON.parse(readFileSync('./data/blogs.json'));
-// const allBlogs = JSON.parse(readFileSync('./blogs.json'));
+const allBlogs = JSON.parse(readFileSync('./datasets/allblogs.json'));
 
 // const allBlogs = {};
 

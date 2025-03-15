@@ -44,11 +44,14 @@ const getRecommendations = async (url, allBlogData, outputFilePath, maxDepth, cu
 
 			if (result.error) {
 				if (result.message.includes('404')) {
-					console.log(`404 not found error for ${blogData.domain}`);
+					console.log(`404 forbidden error for ${blogData.domain}`);
+				} else if (result.message.includes('403')) {
+					console.log(`403 not found error for ${blogData.domain}`);
 				} else {
 					console.log(`Error fectching recommendations for ${blogData.domain}: ${JSON.stringify(result)}`);
 				}
 
+				await setTimeout(SCRAPE_DELAY);
 				return;
 			}
 
@@ -73,6 +76,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, maxDepth, cu
 
 			if (rootResult.error) {
 				console.log(`Error fetching blog metadata for ${url}: ${JSON.stringify(rootResult)}`);
+				await setTimeout(SCRAPE_DELAY);
 				return;
 			}
 
@@ -84,7 +88,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, maxDepth, cu
 			await setTimeout(SCRAPE_DELAY);
 
 			try {
-				writeFileSync(`./${outputFilePath}`, JSON.stringify(allBlogData, null, 2));
+				writeFileSync(outputFilePath, JSON.stringify(allBlogData, null, 2));
 			} catch (err) {
 				console.error(`Error saving to file at ${outputFilePath}: ${err}`);
 			}
