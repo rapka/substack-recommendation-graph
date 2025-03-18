@@ -29,7 +29,7 @@ if (process.argv[2] === 'url') {
 
 	const rootUrl = process.argv[3];
 	blogsToProcess.push(rootUrl);
-	outputFilePath = join(currentPath, '..', 'datasets', `${rootUrl.replaceAll('.', '_')}-${maxDepth}.json`);
+	outputFilePath = join(currentPath, '..', 'datasets', `${rootUrl}-${maxDepth}.json`);
 	console.log(`Saving recommendations for url ${process.argv[3]} to ${outputFilePath}`);
 // Scrape from a list of blogs
 } else if (process.argv[2] === 'list') {

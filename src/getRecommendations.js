@@ -3,7 +3,7 @@ import { writeFileSync } from 'node:fs';
 import { setTimeout } from 'node:timers/promises';
 
 // Delay
-const SCRAPE_DELAY = 1000;
+const REQUEST_DELAY = 1000;
 
 //  Parse Substack root url from lead_image_url
 const getSubstackUrl = (baseUrl) => {
@@ -51,7 +51,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, maxDepth, cu
 					console.log(`Error fectching recommendations for ${blogData.domain}: ${JSON.stringify(result)}`);
 				}
 
-				await setTimeout(SCRAPE_DELAY);
+				await setTimeout(REQUEST_DELAY);
 				return;
 			}
 
@@ -63,7 +63,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, maxDepth, cu
 				blogData.substackUrl = getSubstackUrl(result.lead_image_url);
 			}
 
-			await setTimeout(SCRAPE_DELAY);
+			await setTimeout(REQUEST_DELAY);
 		} else {
 			// Reuse existing recommendations
 			blogData.recommendations = allBlogData[blogData.domain].recommendations;
@@ -85,7 +85,7 @@ const getRecommendations = async (url, allBlogData, outputFilePath, maxDepth, cu
 			blogData.description = (rootResult.excerpt || 'Unknown Description').replace(/ Click to read.*/, '');
 			allBlogData[blogData.domain] = blogData;
 
-			await setTimeout(SCRAPE_DELAY);
+			await setTimeout(REQUEST_DELAY);
 
 			try {
 				writeFileSync(outputFilePath, JSON.stringify(allBlogData, null, 2));
