@@ -7,18 +7,28 @@ Substack's management has been [shown to be connected](https://www.polemics.md/s
 Also included in this repo are scripts for scraping recommendation networks from specific blogs and converting the data to other formats for analysis.
 
 
+## Datasets
+
+The `datasets` directory contains JSON files containing the recommendation networks of several individual blogs as well as list of anti-transgender and race science blogs stored in `data/terfBlogs.json` and `data/raceBlogs.json` respectively. Additionally, both lists are merged into `data/combinedBlogs.json`, making data/combinedBlogs-3.json the largest and most comprehensive data set.
+
+
+The `datasets-csv` directory contains all of the datasets converted into edge list CSV files capable of being [visualized by Gephi](https://docs.gephi.org/User_Manual/Import_CSV_Data/
+). Blog names are simplified for readability purposes.
+
+All data was generated between 3/15/2025 and 3/17/2025.
+
+
 ## Scripts
 
 ### Installation
 
-The scripts for scraping and converting data are written in NodeJS 22.
+The scripts for scraping and converting data are written in [NodeJS](https://nodejs.org/en) 22. Ensure you have the right version installed and install dependencies by running `npm install`.
 
 ### Scraping
 
-
 ##### Individual Blogs
 
-`npm run scrape url {url} {depth}` will scrape recommendations from the specified URL into a JSON file at `datasets/{url}-{depth}.json` containing data relating to `blogUrl` and all blogs within `depth` degrees of separation.
+`npm run scrape url {url} {depth}` will scrape recommendations from the specified URL into a JSON file at `datasets/{url}-{depth}.json` containing data relating to `blogUrl` and all blogs within `depth` degrees of separation (defaults to 3).
 
 ##### List of Blogs
 
@@ -33,16 +43,5 @@ Note on url formatting: Some custom domains are configured to include `www.` in 
 
 #### Conversion scripts
 
-`npm run convert {filneame}` will convert a json file in the `datasets` directory to a CSV file capable of being [load into Gephi](https://docs.gephi.org/User_Manual/Import_CSV_Data/
-).
+`npm run convert {filneame}` will convert a JSON file in the `datasets` directory into a corresponding CSV file in `datasets-csv`.
 
-
-### Dataset
-
-
-#### Future work
-
-With a few exceptions, there is currently no data in any blog pages besides their recommendations list. In the future, I hope to add tags on GC and race science blogs to better visualize how the blogosphere works as well as links to the blogs in question.
-
-
-This data was generated between 3/15/2025 and 3/217/2025 by accessing the following blogs with depth 3
