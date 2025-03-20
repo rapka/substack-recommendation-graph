@@ -2,22 +2,20 @@
   "name": "substack-recommendation-graph",
   "version": "1.0.0",
   "description": "A project for tracking and graphing right wing Substack blogs, with a particular focus on the race science, and gender critical blogospheres.",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
   "main": "src/scrape.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape": "node --max-old-space-size=16384 src/scrape.js",
-    "convert": "node convertToObservable.js",
-    "csv": "node src/convertToCsv.js",
+    "csv": "node src/convertToCsv.js"
   },
-  "author": "",
+  "author": "Rachel Adjogah",
   "license": "MIT",
   "dependencies": {
-    "@observablehq/framework": "^1.13.0",
     "@postlight/parser": "^2.2.3",
     "node-fetch": "^3.3.2"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "type": "module"
+  }
 }
