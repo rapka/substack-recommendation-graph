@@ -3,7 +3,7 @@ import { writeFileSync } from 'node:fs';
 import { setTimeout } from 'node:timers/promises';
 
 // Delay
-const REQUEST_DELAY = 1000;
+const REQUEST_DELAY = process.env['REQUEST_DELAY'] || 1000;
 
 //  Parse Substack root url from lead_image_url
 const getSubstackUrl = (baseUrl) => {

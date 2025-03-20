@@ -40,6 +40,8 @@ Adding `append` as a final argument (i.e. `npm run scrape www.aporiamagazine.com
 
 Note on url formatting: Some custom domains are configured to include `www.` in their names (i.e. "christopherrufo.com") while most will. Attempting to use an invalid url will throw an `ENOTFOUND` error.
 
+The scraping script defaults to delaying requests by 1000ms to avoid ratelimiting. This can be overriden using the `REQUEST_DELAY` environment variable.
+
 
 #### Conversion scripts
 
