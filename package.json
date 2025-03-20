@@ -1,20 +1,16 @@
 {
   "name": "substack-recommendation-graph",
   "version": "1.0.0",
-  "description": "A project dedicated tracking and graphing right wing Substack blogs, with a particular focus on the race science, anti-vaccine, and gender critical blogospheres.",
+  "description": "A project for tracking and graphing right wing Substack blogs, with a particular focus on the race science, and gender critical blogospheres.",
   "main": "src/scrape.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape": "node --max-old-space-size=16384 src/scrape.js",
     "convert": "node convertToObservable.js",
     "csv": "node src/convertToCsv.js",
-    "build": "observable build",
-    "dev": "observable preview",
-    "deploy": "observable deploy",
-    "observable": "observable"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@observablehq/framework": "^1.13.0",
     "@postlight/parser": "^2.2.3",
